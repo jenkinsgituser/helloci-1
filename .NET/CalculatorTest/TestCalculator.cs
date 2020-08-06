@@ -55,13 +55,6 @@ namespace CalculatorTest
             Assert.That(Calc.Substract(0, 100), Is.EqualTo(-100));
         }
 
-        [Category("SumTests")]
-        [Test]
-        public void OneCanSumPositiveIntegers()
-        {
-            Assert.That(Calc.Sum(5, 10), Is.EqualTo(15));
-        }
-        
         [Ignore("Ignoring")]
         [Category("SubstractTests")]
         [Test]
